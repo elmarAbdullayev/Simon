@@ -1,0 +1,74 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color:  #011F3F;
+}
+
+#yellow{
+ height: 200px;
+ width: 200px;
+ background-color: yellow;
+ margin: 5px;
+ border-radius: 30px;
+
+}
+
+#red{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    margin: 5px;
+    border-radius: 30px;
+}
+
+#green{
+    height: 200px;
+    width: 200px;
+    background-color: green;
+    margin: 5px;
+    border-radius: 30px;
+}
+
+#black{
+    height: 200px;
+    width: 200px;
+    background-color: black;
+    margin: 5px;
+    border-radius: 30px;
+}
+.randomCss{
+    box-shadow: 0 0 20px white;
+    background-color: grey;
+}
+.gameover{
+    background-color: red;
+    opacity: 0.8;
+}
+
+@media (max-width:600px) {
+    .mainDiv,.yellow, .green , .black , .red{
+        display: flex;
+         position: relative;
+         right: 400px;
+    }
+    .text{
+        position: relative;
+         left: 350px;
+         bottom: 40px;
+    }
+}
+
+@media  (max-width:900px){
+    .mainDiv,.yellow, .green , .black , .red{
+        display: flex;
+         position: relative;
+         right: 400px;
+       
+    }
+    .text{
+        position: relative;
+         left: 150px;
+         bottom: 40px;
+    }
+}
+
